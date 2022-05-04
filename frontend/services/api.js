@@ -1,3 +1,5 @@
 import { getAPIClient } from './http'
 
-export const api = getAPIClient()
+const api = getAPIClient()
+
+export default api;
